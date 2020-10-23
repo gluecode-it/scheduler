@@ -26,9 +26,10 @@ export class Scheduler {
 				this.config.scheduler.timezone,
 				job
 			);
-			eventHandler.onTriggered(async (job) => {
+
+			eventHandler.onTriggered(async () => {
 				this.emitter.emit(Event.JOB_TRIGGERED, job);
-				await actionHandler.do(job);
+				await actionHandler.do(job.action.options);
 			});
 			eventHandler.start();
 		}
