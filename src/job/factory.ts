@@ -39,6 +39,6 @@ export class JobFactory {
 		if (!factory) {
 			throw Error(`action factory for type "${action.type}" not found!`);
 		}
-		return factory.create(action);
+		return factory.create(action.options);
 	}
 }
