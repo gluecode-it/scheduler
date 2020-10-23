@@ -93,5 +93,8 @@
 		"testPathIgnorePatterns": [
 			"/src/config/dto"
 		]
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
