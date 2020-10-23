@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs",
+		"skipLibCheck": true,
+		"outDir": "./dist",
+		"sourceMap": true /* Generates corresponding '.map' file. */,
+		"moduleResolution": "node",
+		"declaration": true,
+		"strict": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"noUnusedLocals": true,
+		"pretty": true,
+		"lib": ["dom", "es2015"],
+		"forceConsistentCasingInFileNames": true,
+		"strictPropertyInitialization": false
+	}
+}

@@ -1,0 +1,9 @@
+scheduler:
+  timezone: 'Europe/Berlin'
+  jobs:
+    - name: test
+      cron_pattern: '* * * * *'
+      webhook:
+        url: https://example.com
+        method: POST
+        data:
