@@ -2,7 +2,7 @@
 	"name": "@gluecode-it/scheduler",
 	"version": "1.0.0",
 	"description": "",
-	"main": "dist/src/index.js",
+	"main": "dist/index.js",
 	"scripts": {
 		"start": "node dist/src/cli.js",
 		"test": "jest --coverage",
