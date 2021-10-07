@@ -13,7 +13,7 @@
 		"format": "prettier --loglevel warn --write \"**/*.{ts,tsx,css,md}\""
 	},
 	"devDependencies": {
-		"@babel/core": "7.13.8",
+		"@babel/core": "7.15.8",
 		"@babel/plugin-proposal-class-properties": "^7.13.0",
 		"@babel/plugin-proposal-decorators": "^7.13.5",
 		"@babel/preset-env": "7.13.9",
